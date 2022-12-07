@@ -1,0 +1,63 @@
+{% load static %}
+
+<header class="header-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <button class="navbar-toggler d-inline-flex d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu-open" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="12" x2="14" y2="12"></line>
+              <line x1="4" y1="18" x2="18" y2="18"></line>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu-close" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <a class="navbar-brand d-flex mb-0 me-0" href="https://platol.netlify.app/" title="">
+            <img loading="lazy" class="img-fluid" width="130" height="31" src="{% static 'assets/images/logo.png' %}" alt="">
+          </a>
+          <div class="d-block d-lg-none">
+            <button class="search-toggle" data-toggle="search" aria-label="Search Toggle">
+              <svg width="28" height="28" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="square" stroke-linejoin="square" />
+                <path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="square" stroke-linejoin="square" />
+              </svg>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navHeader">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Featured</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Latest</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Archive</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="navbar-right d-none d-lg-block">
+              <button class="search-toggle ms-2" data-toggle="search" aria-label="Search Toggle">
+                <svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="square" stroke-linejoin="square" />
+                  <path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="square" stroke-linejoin="square" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
